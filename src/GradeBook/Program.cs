@@ -17,7 +17,7 @@ namespace GradeBook
             Console.WriteLine(stats.Average);
             Console.WriteLine(stats.Low);
             Console.WriteLine(stats.High);
-          
+          Console.WriteLine(stats.Letter);
         }
     }
 }

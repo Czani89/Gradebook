@@ -19,7 +19,9 @@ namespace GradeBook.test
             Assert.Equal(79.1, result.Average);
             Assert.Equal(71.1, result.Low);
             Assert.Equal(89.1, result.High);
+            Assert.Equal('C', result.Letter);
 
         }
+    
     }
 }
